@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
                     winnerMessage.setText( winner + "has won!");
 
-                    //after someone has won the game display the linear loyout wich asks user to play again
+                    //after someone has won the game display the linear loyout which asks user to play again
                     LinearLayout layout =(LinearLayout)findViewById(R.id.playAgainLayout);
                     layout.setVisibility(view.VISIBLE);
 
